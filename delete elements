@@ -1,0 +1,8 @@
+
+myDict = {1: 'my', 2: 'captain', 3: 'learning'} 
+ 
+delete = [key for key in myDict if key == 3] 
+ 
+for key in delete: del myDict[key] 
+  
+print(myDict) 
